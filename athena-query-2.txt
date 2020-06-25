@@ -1,0 +1,4 @@
+SELECT prefix
+       ,count(prefix) AS count_name
+FROM "ip-streaming"
+GROUP BY  prefix
